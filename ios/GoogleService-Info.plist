@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>107794960278-kkgdd1tq66gfinpc7vgsnq5bl78g8qjf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.107794960278-kkgdd1tq66gfinpc7vgsnq5bl78g8qjf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEJjf4lNkLrHUGT6KN1DeRwRNpoV8HlyM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>107794960278</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BHT.StreetMusicApp</string>
+	<key>PROJECT_ID</key>
+	<string>streetmusicapp-1d17f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>streetmusicapp-1d17f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:107794960278:ios:55cf6d2e3d9fae9f6157b7</string>
+	<key>DATABASE_URL</key>
+	<string>https://streetmusicapp-1d17f-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

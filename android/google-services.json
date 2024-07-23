@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "107794960278",
+    "firebase_url": "https://streetmusicapp-1d17f-default-rtdb.firebaseio.com",
+    "project_id": "streetmusicapp-1d17f",
+    "storage_bucket": "streetmusicapp-1d17f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107794960278:android:ed7c82b1ffa3466f6157b7",
+        "android_client_info": {
+          "package_name": "com.BHT.StreetMusicApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107794960278-n4gm937tlansjrut3l87qqogovf2hsj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv7qECItkYQYkR17XpGqzGziuSx0RtMfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107794960278-n4gm937tlansjrut3l87qqogovf2hsj1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "107794960278-kkgdd1tq66gfinpc7vgsnq5bl78g8qjf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.BHT.StreetMusicApp",
+                "app_store_id": "123123123"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

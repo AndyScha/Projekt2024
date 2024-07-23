@@ -1,0 +1,39 @@
+# CHANGELOG
+
+Alle bemerkenswerten Änderungen an diesem Projekt werden in diesem Dokument dokumentiert. Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/), und dieses Projekt hält sich an [Semantic Versioning](https://semver.org/lang/de/).
+
+## [Unveröffentlicht]
+### Hinzugefügt
+- Initialisierung des CHANGELOG-Dokuments.
+- Grundlegende Struktur und erste Informationen hinzugefügt.
+
+## [1.0.0] - 2024-07-03
+### Hinzugefügt
+- Erste stabile Version veröffentlicht.
+- Basisfunktionen für Benutzerverwaltung (Registrierung, Anmeldung, Passwort zurücksetzen).
+- Dashboard mit grundlegenden Analysen und Berichten.
+- API zur Integration mit Drittanbieter-Diensten.
+
+### Geändert
+- Nicht zutreffend (da dies die erste Version ist).
+
+### Behoben
+- Nicht zutreffend (da dies die erste Version ist).
+
+## [0.9.0] - 2024-06-01
+### Hinzugefügt
+- Beta-Version veröffentlicht für interne Tests.
+- Grundlegende Benutzeroberfläche und Funktionalitäten implementiert.
+
+### Geändert
+- Verbesserung der Performance der Datenbankabfragen.
+- Anpassung des Layouts für bessere Benutzerfreundlichkeit.
+
+### Behoben
+- Diverse Fehlerbehebungen basierend auf Feedback aus Alpha-Tests.
+
+## [0.1.0] - 2024-05-01
+### Hinzugefügt
+- Erste Alpha-Version zur internen Überprüfung.
+- Implementierung grundlegender Datenbankstrukturen und Backend-Logik.
+- Einfache Benutzeroberfläche zur Interaktion mit dem System.

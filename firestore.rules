@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Regel für Benutzerprofile: Alle authentifizierten Benutzer können lesen, aber nur der Besitzer kann schreiben
+    match /users/{userId} {
+      allow read: if request.auth.uid != null;  // Alle authentifizierten Benutzer können lesen
+      allow write: if request.auth.uid == userId;  // Nur der Besitzer kann schreiben
+    }
+
+    // Regel für öffentliche Daten: Alle Benutzer können lesen, aber nur authentifizierte Benutzer können schreiben
+    match /publicData/{documentId} {
+      allow read: if true;
+      allow write: if request.auth.uid != null;
+    }
+
+    // Beispiel für eine geschützte Sammlung, auf die nur authentifizierte Benutzer zugreifen können
+    match /protectedData/{docId} {
+      allow read, write: if request.auth.uid != null;
+    }
+    
+    // Falls Sie administrative Funktionen haben, die nur von spezifischen Benutzern ausgeführt werden können
+    match /adminData/{docId} {
+      allow read, write: if request.auth.uid != null && request.auth.token.admin == true;
+    }
+
+    // Regel für Benutzerregistrierung: Nicht authentifizierte Benutzer dürfen auf die Benutzerregistrierungsdaten zugreifen
+    match /userRegistrationData/{documentId} {
+      allow read, write: if request.auth == null;
+    }
+
+    // Regel für die Events-Sammlung: Authentifizierte Benutzer können Events erstellen
+    match /events/{eventId} {
+      allow read: if true;
+      allow write: if request.auth.uid != null;
+    }
+  }
+}
